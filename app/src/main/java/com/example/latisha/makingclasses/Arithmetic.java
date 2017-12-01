@@ -23,6 +23,17 @@ public class Arithmetic {
     public static int add(int operand1, int operand2){
         return operand1 + operand2;
     }
+
+    //Step 29 implemented in lines 28-36 below
+    public static int subtract(int operand1, int operand2){
+        return operand1 - operand2;
+    }
+    public static int multiply(int operand1, int operand2){
+        return operand1 * operand2;
+    }
+    public static int divide(int operand1, int operand2){
+        return operand1 / operand2;
+    }
     
     // Step 7 implemented in lines 17-19 below
     public String toString() {
