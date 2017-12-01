@@ -14,9 +14,11 @@ public class ArithmeticTest2 extends TestCase {
         super.setUp();
         a = new Arithmetic(5, 10);
     }
-
+    
+    //Steps 27-28 implemented in lines 19-22 below
     public void testArithmeticAdd() {
-        assertEquals(a.add(), 15);
+        assertEquals(Arithmetic.add(2, 2), 4);
+        assertEquals(Arithmetic.add(2, -5), -3);
     }
 
     public void testArithmeticSubtract() {
