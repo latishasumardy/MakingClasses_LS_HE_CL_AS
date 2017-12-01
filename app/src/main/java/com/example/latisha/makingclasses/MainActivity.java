@@ -11,10 +11,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Step 8 implemented in lines 13-15 below
         Arithmetic testArithmetic = new Arithmetic();
-
         System.out.println(testArithmetic);
+       
+        //Step 23 implemented in lines 17-19 below
         Arithmetic testTaxArithmetic = new TaxArithmetic();
-        double test = testTaxArithmetic.calculateTax(10.75, 8.5);
+        double test = TaxArithmetic.calculateTax(10.75, 8.5);
         System.out.println(test);
     }
 }
