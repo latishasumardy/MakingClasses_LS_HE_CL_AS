@@ -18,6 +18,12 @@ public class Arithmetic {
         mOperand1 = operand1;
         mOperand2 = operand2;
     }
+    
+    //Step 26 implemented in lines 23-25 below
+    public static int add(int operand1, int operand2){
+        return operand1 + operand2;
+    }
+    
     // Step 7 implemented in lines 17-19 below
     public String toString() {
         return "Arithmetic Instance:  mOperand1 = " + mOperand1 + "; mOperand2 = " + mOperand2 + ".";
