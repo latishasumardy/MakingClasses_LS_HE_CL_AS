@@ -6,8 +6,8 @@ package com.example.latisha.makingclasses;
 
 public class Arithmetic {
     // Step 6 implemented in lines 9-15 below
-    private int mOperand1;
-    private int mOperand2;
+    public int mOperand1;
+    public int mOperand2;
 
     public Arithmetic() {
         mOperand1 = 10;
