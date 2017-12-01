@@ -12,7 +12,7 @@ public class ArithmeticTest2 extends TestCase {
     @Override
     public void setUp()throws Exception{
         super.setUp();
-        a = new Arithmetic(5, 10);
+
     }
     
     //Steps 27-28 implemented in lines 19-22 below
@@ -20,17 +20,20 @@ public class ArithmeticTest2 extends TestCase {
         assertEquals(Arithmetic.add(2, 2), 4);
         assertEquals(Arithmetic.add(2, -5), -3);
     }
-
+    //Step 29 implemented in lines 24-22 below
     public void testArithmeticSubtract() {
-        assertEquals(a.subtract(), -5);
+        assertEquals(Arithmetic.subtract(0,5), -5);
+        assertEquals(Arithmetic.subtract(5,10), -5);
     }
 
     public void testArithmeticMultiply() {
-        assertEquals(a.multiply(), 50);
+        assertEquals(Arithmetic.multiply(10,5), 50);
+        assertEquals(Arithmetic.multiply(2,25), 50);
     }
 
     public void testArithmeticDivide() {
-        assertEquals(a.divide(), 0);
+        assertEquals(Arithmetic.divide(0,10), 0);
+        assertEquals(Arithmetic.divide(0,20), 0);
     }
 
     @Override
