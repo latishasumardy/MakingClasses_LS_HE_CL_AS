@@ -24,6 +24,10 @@ This section of the assignment was all about learning how to start making a clas
 Part II:
 This part was all about running tests with JUnit. We learned how this could be very useful--especially when you are trying to test more than one method at a time. It provides efficiency, and it allows you to see what went wrong easily. 
 
+Part III:
+
+Part IV:
+
 Part V:
 In your own words, how do you run your app in debug mode?
 To start off you need to place breakpoints in your code, you would then press on debug in the settings and run a virtual device or plug in a device. Then a debug window should pop up.
