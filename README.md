@@ -30,10 +30,16 @@ Part IV:
 
 Part V:
 In your own words, how do you run your app in debug mode?
+
 To start off you need to place breakpoints in your code, you would then press on debug in the settings and run a virtual device or plug in a device. Then a debug window should pop up.
+
 What does the Debugger tab show?
+
 The debugger tab shows what statements could be false. As well as what to perform and what to launch.
+
 What do breakpoints do when you run your program?
+
+The debugger tab shows what statements could be false. As well as what to perform and what to launch.
 The breakpoints allow you to run your code smoothly until you see and error and you can add a breakpoint. Allows you to skip sections you that you know have no errors.
 How do you advance to the next line of code using the debugger?
 There is a button called Step Over.
