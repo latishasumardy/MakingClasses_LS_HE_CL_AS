@@ -11,7 +11,7 @@ This assignment was a lesson in making classes, and understanding subclasses, su
 
 Team member roles in assignment: 
 
-We all worked on the sections collaboratively.
+We all worked on the sections collaboratively in class, and discussed over message when working at home.
 
 Key Lessons learned:
 
@@ -25,8 +25,10 @@ Part II:
 This part was all about running tests with JUnit. We learned how this could be very useful--especially when you are trying to test more than one method at a time. It provides efficiency, and it allows you to see what went wrong easily. 
 
 Part III:
+This part emphasized subclasses, and learning how to create a class that extends from another. We created the TaxArithmetic class and made it extend from the Arithmetic class, so that it could inherit the code that we initially wrote for the Arithmetic class. 
 
 Part IV:
+This section taught us about static methods. We learned that static methods do not require you to reference an instance of a class when you call it. We practiced this skill by adding our own static methods into the Arithmetic class. 
 
 Part V:
 In your own words, how do you run your app in debug mode?
@@ -59,7 +61,5 @@ Compare and contrast each of the methods you have learned so far for troubleshoo
 
 JUnit testing is basically a framework that collectively known as Sunit. Debugging is running through the code step by step allowing you to view what each line of code may do, and what variables are holding what data, which helps view mistakes you could have missed. When you are logging client code sends log requests to Logger objects. Each logger keeps track of a log level that it is interested in, and discards log requests that are below this level.
 
-
-(Answer these as the last part of your README.txt file)
 
 ===== README.txt ========
