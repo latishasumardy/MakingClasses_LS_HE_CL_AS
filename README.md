@@ -41,16 +41,22 @@ What do breakpoints do when you run your program?
 
 The debugger tab shows what statements could be false. As well as what to perform and what to launch.
 The breakpoints allow you to run your code smoothly until you see and error and you can add a breakpoint. Allows you to skip sections you that you know have no errors.
+
 How do you advance to the next line of code using the debugger?
+
 There is a button called Step Over.
+
 How do you switch from debugging back to running your app normally?
+
 You would stop the debugger, then you would exit out of it, you will be back at your normal screen of your app.
 
 Conclusion Questions:
 When is it useful to have multiple instances of a class, rather than creating static methods and fields?
+
 If you do not need to use an object then create a static method while if you need a bunch of objects its easier to use classes.
 
 Compare and contrast each of the methods you have learned so far for troubleshooting Android apps. They are: logging, unit testing using JUnit, and debugging.
+
 JUnit testing is basically a framework that collectively known as Sunit. Debugging is running through the code step by step allowing you to view what each line of code may do, and what variables are holding what data, which helps view mistakes you could have missed. When you are logging client code sends log requests to Logger objects. Each logger keeps track of a log level that it is interested in, and discards log requests that are below this level.
 
 
